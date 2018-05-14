@@ -43,3 +43,7 @@ TAGS
 # config files
 *.config
 !build.config
+
+# temp files
+/test/dynamicmodule/dynamicmodule.iotjs
+/sajat_js_tests/temp_*
