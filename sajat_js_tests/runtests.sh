@@ -2,7 +2,7 @@
 
 
 for fn in `ls test*.js`; do
-	good=$(eval "cat ./"$fn" | grep \"//good //finisd\"")
+	good=$(eval "cat ./"$fn" | grep \"//finisd\"")
 	if [ ! -z "$good" ]
 	then
 		eval "./runtest.sh "$fn
