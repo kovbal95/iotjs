@@ -1,4 +1,4 @@
-//not_implemented //good //finisd
+//-not_implemented //good //finisd
 /*
 	function f (x, y, z) {
 	    if (y === undefined)

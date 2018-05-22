@@ -25,22 +25,17 @@
 	});
 */
 
-var assert = require('assert');
-var console = require('console');
-var start = Date.now();
-
-var N = 1
-for (var i=0;i<N;i++) {
-	//not_implemented
-	function msgAfterTimeout (msg, who, timeout) {
-		return new Promise((resolve, reject) => {
-			setTimeout(() => resolve(`${msg} Hello ${who}!`), timeout)
-		})
+var fut=true;
+var i=0, j=0;
+new Promise((resolve, reject) => {
+	while (i<10) {
+		i++;
 	}
-	msgAfterTimeout("", "Foo", 100).then((msg) =>
-		msgAfterTimeout(msg, "Bar", 200)
-	).then((msg) => {
-		console.log(`done after 300ms:${msg}`)
-	})
+	resolve("Vegigment!");
+}).then((msg) => {
+	console.log(msg+i+" "+j);
+	fut=false;
+});
+while (fut) {
+	j++;
 }
-console.log((Date.now()-start)/1000);

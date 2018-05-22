@@ -1,4 +1,4 @@
-//not_implemented //good //finisd
+//-not_implemented //good //finisd
 /*
 	obj = {
 		foo: function (a, b) {

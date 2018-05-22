@@ -1,4 +1,4 @@
-//not_implemented //good //finisd
+//-not_implemented //good //finisd
 /*
 	var Rectangle = function (id, x, y, width, height) {
 	    Shape.call(this, id, x, y);

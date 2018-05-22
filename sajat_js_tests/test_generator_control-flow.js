@@ -43,27 +43,17 @@
 	})
 */
 
-/*
-	//  no equivalent in ES5
-*/
+if (N>1) break;//needed
 
 
-
-
-var assert = require('assert');
-var console = require('console');
-var start = Date.now();
-
-var N = 1
-for (var i=0;i<N;i++) {
-	//not_implemented
 	//  generic asynchronous control-flow driver
-	/*
+
 	function async (proc, ...params) {
 		let iterator = proc(...params)
 		return new Promise((resolve, reject) => {
 			let loop = (value) => {
-				let result try {
+				let result
+				try {
 					result = iterator.next(value)
 				}
 				catch (err) {
@@ -99,23 +89,3 @@ for (var i=0;i<N;i++) {
 	}, "Hello").then((msg) => {
 		console.log("RESULT:", msg) // "Hello foo bar baz"
 	})
-	*/
-	// an immediately resolved promise
-
-	var p = new Promise(function(resolve, reject) {
-	   setTimeout(() => resolve(50), 2000);
-	});
-
-	// handler can't change promise, just value
-	p.then((res) => {
-			console.log(res);
-			if (res<50) {
-				console.log("ok");
-				resolve(res+2);
-			}
-		});
-
-
-
-}
-console.log((Date.now()-start)/1000);

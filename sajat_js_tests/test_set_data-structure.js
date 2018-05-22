@@ -1,4 +1,4 @@
-//not_implemented //-good //-finisd
+//not_implemented //-good //finisd
 /* es6 //formed
 	let s = new Set()
 	s.add("hello").add("goodbye").add("hello")
@@ -8,22 +8,11 @@
 		console.log(key)
 */
 
-/*
-	var s = {};
-	s["hello"] = true; s["goodbye"] = true; s["hello"] = true;
-	Object.keys(s).length === 2;
-	s["hello"] === true;
-	for (var key in s) // arbitrary order
-	    if (s.hasOwnProperty(key))
-	        console.log(s[key]);
-*/
-
-
-
+if (N>500000) break;//needed
 
 var s = new Set();
 s.add("hello").add("goodbye").add("hello");
-s.size === 2;
-s.has("hello") === true;
+assert.equal(s.size === 2, true);
+assert.equal(s.has("hello") === true, true);
 for (var key of s.values())
-	console.log(key);
+	assert.equal(key, true);

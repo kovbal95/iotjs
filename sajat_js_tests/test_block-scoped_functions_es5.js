@@ -1,4 +1,4 @@
-//not_implemented //good //finisd
+//-not_implemented //good //finisd
 /*
 	//  only in ES5 with the help of block-scope emulating
 	//  function scopes and function expressions

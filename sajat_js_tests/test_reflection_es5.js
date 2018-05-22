@@ -1,4 +1,4 @@
-//not_implemented //good //finisd
+//-not_implemented //good //finisd
 /*
 	var obj = { a: 1 };
 	Object.defineProperty(obj, "b", { value: 2 });

@@ -1,4 +1,4 @@
-//not_implemented //good //finisd
+//-not_implemented //good //finisd
 /*
 	var x = 0, y = 0;
 	obj = { x: x, y: y };

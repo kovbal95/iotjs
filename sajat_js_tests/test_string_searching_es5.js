@@ -1,4 +1,4 @@
-//not_implemented //good //finisd
+//-not_implemented //good //finisd
 /*
 "hello".indexOf("ello") === 1;    // true
 "hello".indexOf("hell") === (4 - "hell".length); // true

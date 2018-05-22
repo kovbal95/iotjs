@@ -1,4 +1,4 @@
-//not_implemented //good //finisd
+//-not_implemented //good //finisd
 /*
 	var tmp = getASTNode();
 	var op  = tmp.op;

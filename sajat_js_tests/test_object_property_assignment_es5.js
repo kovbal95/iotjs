@@ -1,4 +1,4 @@
-//not_implemented //good //finisd
+//-not_implemented //good //finisd
 /*
 	var dest = { quux: 0 };
 	var src1 = { foo: 1, bar: 2 };

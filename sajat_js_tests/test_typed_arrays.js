@@ -1,4 +1,4 @@
-//not_implemented //-good //-finisd
+//not_implemented //-good //finisd
 /* es6 //formed
 //  ES6 class equivalent to the following C structure:
 //  struct Example { unsigned long id; char username[16]; float amountDue }
@@ -26,6 +26,8 @@ example.username = "John Doe"
 example.amountDue = 42.0
 */
 
+if (N>1) break;//needed
+
 var buffer = new ArrayBuffer(16);
 
 var int32View = new Int32Array(buffer);
@@ -36,6 +38,4 @@ for (var i = 0; i < int32View.length; i++) {
 
 var int16View = new Int16Array(buffer);
 
-for (var i = 0; i < int16View.length; i++) {
-  console.log('Entry ' + i + ': ' + int16View[i]);
-}
+assert.equal(JSON.stringify(int16View) === JSON.stringify({0:0,1:0,2:2,3:0,4:4,5:0,6:6,7:0}), true);

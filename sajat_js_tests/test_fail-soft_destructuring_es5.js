@@ -1,4 +1,4 @@
-//not_implemented //good //finisd
+//-not_implemented //good //finisd
 /*
 	var list = [ 7, 42 ];
 	var a = typeof list[0] !== "undefined" ? list[0] : 1;

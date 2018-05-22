@@ -1,4 +1,4 @@
-//not_implemented //-good //-finisd
+//not_implemented //-good //finisd
 /*es6 //formed
 	let fibonacci = function* (numbers) {
 		let pre = 0, cur = 1
@@ -16,26 +16,15 @@
 	let [ n1, n2, n3, ...others ] = fibonacci(1000)
 */
 
-/*
-	//  no equivalent in ES5
-*/
+if (N>100000) break;//needed
 
-
-
-
-var assert = require('assert');
-var console = require('console');
-var start = Date.now();
-
-var N = 800000
-for (var i=0;i<N;i++) {
-	//not_implemented
-	var fibonacci = function* (numbers) {
-		var pre = 0, cur = 1
-		while (numbers-- > 0) {
-			[ pre, cur ] = [ cur, pre + cur ]
-			yield cur
-		}
+var fibonacci = function* (max) {
+	var pre = 0, cur = 1
+	while (max > cur) {
+		[ pre, cur ] = [ cur, pre + cur ]
+		yield pre
 	}
 }
-console.log((Date.now()-start)/1000);
+
+var n=[...fibonacci(1000)]
+assert.equal(JSON.stringify(n) === JSON.stringify([1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987]), true)

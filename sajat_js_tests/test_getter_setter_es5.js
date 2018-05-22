@@ -1,4 +1,4 @@
-//not_implemented //good //finisd
+//-not_implemented //good //finisd
 /*
 	var Rectangle = function (width, height) {
 	    this._width  = width;

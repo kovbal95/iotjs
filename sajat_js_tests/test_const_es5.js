@@ -1,4 +1,4 @@
-//not_implemented //good //finisd
+//-not_implemented //good //finisd
 /*
 	//  only in ES5 through the help of object properties
 	//  and only in global context and not in a block scope
