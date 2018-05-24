@@ -1,12 +1,14 @@
 #!/bin/bash
 
+#../tools/build.py --clean --jerry-profile=es2015-subset
 
-for fn in `ls test*.js`; do
-	good=$(eval "cat ./"$fn" | grep \"//finisd\"")
-	if [ ! -z "$good" ]
-	then
-		eval "./runtest.sh "$fn
-	fi
+for fn in `ls test_*.js`; do
+	eval "./runtest.sh "$fn
+done
+
+for fn in `ls test-promise_*.js`; do
+	echo $fn
+	eval "../build/x86_64-linux/debug/bin/iotjs "$fn
 done
 
 date
