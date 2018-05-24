@@ -1,4 +1,4 @@
-//not_implemented //-good //finisd
+//-not_implemented //good //finisd
 /* es6 //formed
 //  ES6 class equivalent to the following C structure:
 //  struct Example { unsigned long id; char username[16]; float amountDue }

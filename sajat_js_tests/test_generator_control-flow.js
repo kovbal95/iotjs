@@ -1,4 +1,4 @@
-//not_implemented //-good //-finisd
+//not_implemented //-good //finisd
 /*es6 //formed
 	//  generic asynchronous control-flow driver
 	function async (proc, ...params) {
@@ -46,7 +46,6 @@
 if (N>1) break;//needed
 
 
-	//  generic asynchronous control-flow driver
 
 	function async (proc, ...params) {
 		let iterator = proc(...params)
@@ -74,18 +73,16 @@ if (N>1) break;//needed
 			loop()
 		})
 	}
-	//  application-specific asynchronous builder
 	function makeAsync (text, after) {
 		return new Promise((resolve, reject) => {
 			setTimeout(() => resolve(text), after)
 		})
 	}
-	//  application-specific asynchronous procedure
 	async(function* (greeting) {
 		let foo = yield makeAsync("foo", 300)
 		let bar = yield makeAsync("bar", 200)
 		let baz = yield makeAsync("baz", 100)
 		return `${greeting} ${foo} ${bar} ${baz}`
 	}, "Hello").then((msg) => {
-		console.log("RESULT:", msg) // "Hello foo bar baz"
+		assert.equal(msg === "Hello foo bar baz", true);
 	})
