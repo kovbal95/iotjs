@@ -4,6 +4,10 @@
 ```bash
 ../tools/build.py --clean --jerry-profile=es2015-subset
 ```
+## Env
+
+You need to rewrite "env.sh"!
+
 
 ## How to test
 
