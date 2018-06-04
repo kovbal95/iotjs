@@ -60,7 +60,7 @@
 	console.log(rect.getX(), rect.getY(), rect.getZ(), rect.getColor());
 */
 
-if (N>50000) break;
+if (N>50000) break;//needed
 
 var Shape = function (x, y) {
     this._x = x;

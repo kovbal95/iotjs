@@ -15,7 +15,7 @@
 	Circle.prototype.constructor = Circle;
 */
 
-if (N>100000) break;
+if (N>100000) break;//needed
 
 var Shape = function (id, x, y) {
   this.id=id;

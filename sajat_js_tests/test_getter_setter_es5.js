@@ -15,7 +15,7 @@
 	r.area === 1000;
 */
 
-if (N>800000) break;
+if (N>800000) break;//needed
 
 var Rectangle = function (width, height) {
     this._width  = width;

@@ -26,7 +26,7 @@
 	}
 */
 
-if (N>200000) break;
+if (N>200000) break;//needed
 
 class Shape {
 	constructor (id, x, y) {

@@ -65,7 +65,7 @@
 	console.log(rect.x, rect.y, rect.z, rect.color)
 */
 
-if (N>50000) break;
+if (N>50000) break;//needed
 
 class Shape {
 	constructor (x, y) {

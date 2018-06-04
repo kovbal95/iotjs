@@ -10,7 +10,7 @@
 	f(1) === 50;
 */
 
-if (N>4000000) break;
+if (N>4000000) break;//needed
 
 function f (x, y, z) {
     if (y === undefined)

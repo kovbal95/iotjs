@@ -7,7 +7,7 @@
 	"a total of " + (card.amount * card.unitprice) + " bucks?";
 */
 
-if (N>2000000) break;
+if (N>2000000) break;//needed
 
 var customer = { name: "Foo" };
 var message = "Hello " + customer.name + "!";

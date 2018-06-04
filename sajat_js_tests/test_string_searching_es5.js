@@ -7,7 +7,7 @@
 "hello".indexOf("ell", 2) !== -1; // false
 */
 
-if (N>800000) break;
+if (N>800000) break;//needed
 
 assert.equal("hello".indexOf("ello") === 1, true);    // true
 assert.equal("hello".indexOf("hell") === (4 - "hell".length), true); // true

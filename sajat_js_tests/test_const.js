@@ -4,7 +4,7 @@
 	PI > 3.0
 */
 
-if (N>1000000) break;
+if (N>1000000) break;//needed
 
 const PI = 3.1415
 assert.throws(

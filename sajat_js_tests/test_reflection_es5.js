@@ -5,7 +5,7 @@
 	Object.getOwnPropertyNames(obj); // [ "a", "b" ]
 */
 
-if (N>400000) break;
+if (N>400000) break;//needed
 
 var obj = { a: 1 };
 Object.defineProperty(obj, "b", { value: 2 });

@@ -14,7 +14,7 @@
 	}
 */
 
-if (N>1000000) break;
+if (N>1000000) break;//needed
 
 var m = {};
 m["hello"] = 42;

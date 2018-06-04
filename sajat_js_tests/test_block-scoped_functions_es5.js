@@ -13,7 +13,7 @@
 	})();
 */
 
-if (N>1000000) break;
+if (N>1000000) break;//needed
 
 (function () {
   var foo = function () { return 1; }

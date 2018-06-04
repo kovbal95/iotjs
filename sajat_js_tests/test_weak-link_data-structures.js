@@ -35,7 +35,7 @@
 	isMarked.has(foo), false
 */
 
-if (N>1) break;
+if (N>1) break;//needed
 
 let isMarked  = new WeakSet()
 let attachedData = new WeakMap()
