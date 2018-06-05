@@ -27,7 +27,26 @@
 	    console.log("error: " + err);
 	});
 */
-var assert = require('assert');
+var Assert = function() {}
+Assert.prototype.equal = function(a, b) {
+  if (a != b) {
+    throw "n/a";
+  }
+}
+Assert.prototype.throws = function(a){
+  var b=true;
+  try {
+    a();
+  }
+  catch(err){
+    b=false;
+  }
+  if (b) {
+    throw "n/a";
+  }
+}
+var assert = new Assert();
+if (console === undefined) var console = require('console');
 var i=0;
 var start = Date.now();
 while (i<100) {
@@ -51,9 +70,9 @@ while (i<100) {
       }
   }
   fetchAll([
-      { url: "http://backend/foo.txt", timeout: 500 },
-      { url: "http://backend/bar.txt", timeout: 500 },
-      { url: "http://backend/baz.txt", timeout: 500 }
+      { url: "http://backend/foo.txt", timeout: 0 },
+      { url: "http://backend/bar.txt", timeout: 0 },
+      { url: "http://backend/baz.txt", timeout: 0 }
   ], function (data) {
       var foo = data[0], bar = data[1], baz = data[2];
       assert.equal("foo=" + foo + " bar=" + bar + " baz=" + baz === "foo=http://backend/foo.txt bar=http://backend/bar.txt baz=http://backend/baz.txt", true);
@@ -61,4 +80,4 @@ while (i<100) {
       console.log("error: " + err);
   });
 }
-console.log((Date.now()-start)/1000);
+setTimeout(function() {setTimeout(function() {console.log((Date.now()-start)/1000);}, 0)}, 0);

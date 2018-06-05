@@ -43,7 +43,26 @@
 	})
 */
 
-if (N>1) break;//needed
+var Assert = function() {}
+Assert.prototype.equal = function(a, b) {
+  if (a != b) {
+    throw "n/a";
+  }
+}
+Assert.prototype.throws = function(a){
+  var b=true;
+  try {
+    a();
+  }
+  catch(err){
+    b=false;
+  }
+  if (b) {
+    throw "n/a";
+  }
+}
+var assert = new Assert();
+if (console === undefined) var console = require('console');
 
 
 
@@ -85,4 +104,5 @@ if (N>1) break;//needed
 		return `${greeting} ${foo} ${bar} ${baz}`
 	}, "Hello").then((msg) => {
 		assert.equal(msg === "Hello foo bar baz", true);
+		console.log(0);
 	})

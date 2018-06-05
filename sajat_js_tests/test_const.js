@@ -12,4 +12,4 @@ assert.throws(
 		PI = 1;
 	}
 );
-console.log(PI, 3.1415);
+assert.equal(PI, 3.1415);

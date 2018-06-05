@@ -16,7 +16,7 @@
 
 if (N>1) break;//needed
 
-assert.equal(Symbol("foo") !== Symbol("foo"));
+assert.equal(Symbol("foo") !== Symbol("foo"), true);
 var foo = Symbol("foo");
 var bar = Symbol('bar');
 assert.equal(typeof foo, "symbol");

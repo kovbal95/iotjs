@@ -1,4 +1,4 @@
-//formed //not_implemented //-good //-finisd
+//not_implemented //-good //finisd
 /*
 	"𠮷".length === 2
 	"𠮷".match(/./u)[0].length === 2
@@ -16,17 +16,10 @@
 	//  no equivalent in ES5
 	//  no equivalent in ES5
 */
-var assert = require('assert');
-var console = require('console');
-var start = Date.now();
 
-var N = 800000
-for (var i=0;i<N;i++) {
-	assert.equal("𠮷".length, 2)
-	//not_implemented
-	assert.equal("𠮷".match(/./u)[0].length, 2)
-	assert.equal("𠮷", "\uD842\uDFB7")
-	assert.equal("𠮷", "\u{20BB7}")
-	assert.equal("𠮷".codePointAt(0), 0x20BB7)
-}
-console.log((Date.now()-start)/1000);
+if (N>800000) break;//needed
+assert.equal("𠮷".length, 2)
+assert.equal("𠮷".match(/./u)[0].length, 2)
+assert.equal("𠮷", "\uD842\uDFB7")
+assert.equal("𠮷", "\u{20BB7}")
+assert.equal("𠮷".codePointAt(0), 0x20BB7)

@@ -7,6 +7,7 @@
 
 if (N>2000000) break;//needed
 
+var list = [ 1, 2, 3 ];
 var [ a, , b ] = list;
 [ b, a ] = [ a, b ];
 assert.equal(a, 3);

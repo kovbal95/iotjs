@@ -1,3 +1,7 @@
+#!/bin/bash
+
+source ./env.sh
+
 while [ ! -z ${1+x} ]
 do
   echo "N=0;" > $TMP

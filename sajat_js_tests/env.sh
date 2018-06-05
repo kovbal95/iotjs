@@ -4,4 +4,5 @@ IOTJS=../build/x86_64-linux/debug/bin/iotjs
 #IOTJS=node
 #IOTJS=$D8
 TEMPFILE=temp_val.txt
+touch $TEMPFILE
 RUNTEST=./runtest.sh
