@@ -16,7 +16,7 @@
 	var defCircle  = Circle.defaultCircle()
 */
 
-if (N>500000) break;//needed
+
 
 class Triple {
   static triple(n) {

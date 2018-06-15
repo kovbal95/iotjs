@@ -3,7 +3,7 @@
 	var { op: a, lhs: { op: b }, rhs: c } = getASTNode()
 */
 
-if (N>1000000) break;//needed
+
 
 var obj = {
 	op: 1,

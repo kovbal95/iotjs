@@ -14,7 +14,7 @@
 	h({ name: "bar", val: 42 })
 */
 
-if (N>100000) break;//needed
+
 
 function f ([ name, val ]) {
 	return [name, val];

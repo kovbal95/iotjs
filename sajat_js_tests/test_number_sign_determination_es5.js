@@ -10,7 +10,7 @@
 	console.log(mathSign(NaN)) // NaN
 */
 
-if (N>1000000) break;//needed
+
 
 function mathSign (x) {
     return ((x === 0 || isNaN(x)) ? x : (x > 0 ? 1 : -1));

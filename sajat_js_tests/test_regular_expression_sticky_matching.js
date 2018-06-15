@@ -24,7 +24,7 @@
 	])
 */
 
-if (N>40000) break;//needed
+
 
 var parser = (input, match) => {
 	for (var pos = 0, lastPos = input.length; pos < lastPos; ) {

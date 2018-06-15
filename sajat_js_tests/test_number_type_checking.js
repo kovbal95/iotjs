@@ -8,7 +8,7 @@
 	Number.isFinite(123) === true
 */
 
-if (N>800000) break;//needed
+
 
 assert.equal(Number.isNaN(42), false);
 assert.equal(Number.isNaN(NaN), true);

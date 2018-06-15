@@ -16,7 +16,7 @@
 	Object.getOwnPropertySymbols(obj) // [ foo, bar ]
 */
 
-if (N>1) break;//needed
+
 
 assert.equal(Symbol.for("app.foo") === Symbol.for("app.foo"), true);
 const foo = Symbol.for("app.foo")

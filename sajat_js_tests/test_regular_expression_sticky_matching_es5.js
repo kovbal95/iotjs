@@ -23,7 +23,7 @@
 	]);
 */
 
-if (N>40000) break;//needed
+
 
 var parser = function (input, match) {
     for (var i, found, inputTmp = input; inputTmp !== ""; ) {

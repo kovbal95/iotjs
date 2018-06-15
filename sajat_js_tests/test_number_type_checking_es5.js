@@ -15,7 +15,7 @@
 	isFinite(123) === true;
 */
 
-if (N>800000) break;//needed
+
 
 var isNaN = function (n) {
     return n !== n;

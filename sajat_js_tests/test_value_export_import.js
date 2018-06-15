@@ -11,7 +11,7 @@ import { sum, pi } from "lib/math"
 console.log("2π = " + sum(pi, pi))
 */
 
-if (N>1000000) break;//needed
+
 
 import * as math from "./lib/math";
 console.log(math.sum(math.pi, math.pi) === 6.283186, true);

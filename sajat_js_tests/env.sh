@@ -6,3 +6,4 @@ IOTJS=../build/x86_64-linux/debug/bin/iotjs
 TEMPFILE=temp_val.txt
 touch $TEMPFILE
 RUNTEST=./runtest.sh
+RUNMEDIAN=./run_median.sh

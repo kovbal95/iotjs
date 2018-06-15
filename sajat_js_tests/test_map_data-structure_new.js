@@ -10,7 +10,7 @@
 		console.log(key + " = " + val)
 */
 
-if (N>1) break;//needed
+
 
 var m = new Map();
 var s = Symbol();

@@ -11,7 +11,7 @@
 	}
 */
 
-if (N>1000000) break;//needed
+
 {
 	function foo () { return 1 }
 	assert.equal(foo(), 1)

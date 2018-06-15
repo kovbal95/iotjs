@@ -3,7 +3,7 @@
 	get`http://example.com/foo?bar=${bar + baz}&quux=${quux}`
 */
 
-if (N>1000000) break;//needed
+
 
 function get(str, e, m) {
   return str[0]+e+str[1]+m+str[2];

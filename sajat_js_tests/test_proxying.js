@@ -12,7 +12,7 @@
 	proxy.world === "Hello, world"
 */
 
-if (N>1) break;//needed
+
 
 var target = {
 	foo: "Welcome, foo"

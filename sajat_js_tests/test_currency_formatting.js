@@ -8,7 +8,7 @@
 	l10nEUR.format(100200300.40) === "100.200.300,40 €"
 */
 
-if (N>1) break;//needed
+
 
 var l10nUSD = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" })
 var l10nGBP = new Intl.NumberFormat("en-GB", { style: "currency", currency: "GBP" })

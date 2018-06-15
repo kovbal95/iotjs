@@ -14,7 +14,7 @@ var sum = LibMath.sum, pi = LibMath.pi;
 console.log("2π = " + sum(pi, pi));
 */
 
-if (N>1000000) break;//needed
+
 
 LibMath = {};
 LibMath.sum = function (x, y) { return x + y };

@@ -5,7 +5,7 @@
 	console.log(Math.trunc(-0.1)) // -0
 */
 
-if (N>1000000) break;//needed
+
 
 assert.equal(Math.trunc(42.7) === 42, true) // 42
 assert.equal(Math.trunc( 0.1) === 0, true) // 0

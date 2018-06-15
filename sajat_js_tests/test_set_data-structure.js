@@ -8,7 +8,7 @@
 		console.log(key)
 */
 
-if (N>500000) break;//needed
+
 
 var s = new Set();
 s.add("hello").add("goodbye").add("hello");

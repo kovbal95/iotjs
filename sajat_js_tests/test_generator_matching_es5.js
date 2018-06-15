@@ -1,6 +1,6 @@
 //-not_implemented //good //finisd
 
-if (N>100000) break;//needed
+
 
 var fibonacci = function (max) {
 	var pre = 0, cur = 1, i=0;

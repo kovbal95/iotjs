@@ -9,7 +9,7 @@
 	        console.log(s[key]);
 */
 
-if (N>500000) break;//needed
+
 
 var s = {};
 s["hello"] = true; s["goodbye"] = true; s["hello"] = true;

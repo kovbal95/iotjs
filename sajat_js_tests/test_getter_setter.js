@@ -15,7 +15,7 @@
 	r.area === 1000
 */
 
-if (N>800000) break;//needed
+
 
 class Rectangle {
 	constructor (width, height) {

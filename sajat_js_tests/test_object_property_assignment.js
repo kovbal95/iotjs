@@ -10,7 +10,7 @@
 	dest.baz === 4
 */
 
-if (N>400000) break;//needed
+
 
 var dest = { quux: 0 }
 var src1 = { foo: 1, bar: 2 }

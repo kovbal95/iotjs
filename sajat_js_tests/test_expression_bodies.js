@@ -5,7 +5,7 @@
 	nums  = evens.map((v, i) => v + i)
 */
 
-if (N>100000) break;//needed
+
 
 evens = [1, 2, 3];
 odds  = evens.map(v => v + 1);

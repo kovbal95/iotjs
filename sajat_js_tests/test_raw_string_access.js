@@ -11,7 +11,7 @@
 	String.raw `foo\n${ 42 }bar` === "foo\\n42bar"
 */
 
-if (N>1) break;//needed
+
 
 function quux (strings, ...values) {
 	assert.equal(strings[0] === "foo\n", true);

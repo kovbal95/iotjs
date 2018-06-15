@@ -17,7 +17,6 @@
 	//  no equivalent in ES5
 */
 
-if (N>800000) break;//needed
 assert.equal("𠮷".length, 2)
 assert.equal("𠮷".match(/./u)[0].length, 2)
 assert.equal("𠮷", "\uD842\uDFB7")

@@ -26,7 +26,7 @@ example.username = "John Doe"
 example.amountDue = 42.0
 */
 
-if (N>1) break;//needed
+
 
 var buffer = new ArrayBuffer(16);
 

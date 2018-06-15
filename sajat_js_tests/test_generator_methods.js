@@ -12,7 +12,7 @@
 	}
 */
 
-if (N>1) break;//needed
+
 
 function* generator(i) {
   yield i;

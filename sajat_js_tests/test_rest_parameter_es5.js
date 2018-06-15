@@ -7,7 +7,7 @@
 	f(1, 2, "hello", true, 7) === 9;
 */
 
-if (N>800000) break;//needed
+
 
 function f (x, y) {
     var a = Array.prototype.slice.call(arguments, 2);
