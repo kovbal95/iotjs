@@ -7,7 +7,7 @@
 "hello".includes("ell", 2)  // false
 */
 
-if (N>800000) break;//needed
+
 
 assert.equal("hello".startsWith("ello", 1), true) // true
 assert.equal("hello".endsWith("hell", 4), true)  // true

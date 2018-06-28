@@ -14,7 +14,7 @@
 	Object.getOwnPropertySymbols(obj) // [ foo, bar ]
 */
 
-if (N>1) break;//needed
+
 
 assert.equal(Symbol("foo") !== Symbol("foo"), true);
 var foo = Symbol("foo");

@@ -6,7 +6,7 @@
 	var [ x, y = 2 ] = list
 */
 
-if (N>1000000) break;//needed
+
 
 var obj = { a: 1 };
 var list = [ 1 ];

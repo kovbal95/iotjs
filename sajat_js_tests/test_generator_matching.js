@@ -16,7 +16,7 @@
 	let [ n1, n2, n3, ...others ] = fibonacci(1000)
 */
 
-if (N>100000) break;//needed
+
 
 var fibonacci = function* (max) {
 	var pre = 0, cur = 1

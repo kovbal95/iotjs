@@ -16,7 +16,7 @@
 	var defCircle    = Circle.defaultCircle();
 */
 
-if (N>500000) break;//needed
+
 
 var Triple = function () {}
 Triple.triple = function(n) {

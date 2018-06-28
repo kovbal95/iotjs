@@ -12,7 +12,7 @@
 	isSafeInteger(9007199254740992) === false;
 */
 
-if (N>1000000) break;//needed
+
 
 function isSafeInteger (n) {
     return (

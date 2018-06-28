@@ -13,7 +13,7 @@
 	}
 */
 
-if (N>2000000) break;//needed
+
 
 obj = {
 	foo (a, b) {

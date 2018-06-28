@@ -21,7 +21,7 @@
 	    return "Circle > " + Shape.prototype.toString.call(this);
 	};
 */
-if (N>200000) break;//needed
+
 
 var Shape = function (id, x, y) {
   this.id=id;

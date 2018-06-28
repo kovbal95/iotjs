@@ -10,7 +10,7 @@
 	};
 */
 
-if (N>800000) break;//needed
+
 
 var Shape = function (id, x, y) {
   this.id = id;

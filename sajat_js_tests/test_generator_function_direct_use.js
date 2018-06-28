@@ -14,7 +14,7 @@
 
 
 
-if (N>500000) break;//needed
+
 
 function* range (start, end, step) {
 	while (start < end) {

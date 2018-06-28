@@ -7,7 +7,7 @@
 	console.log(Math.sign(NaN)) // NaN
 */
 
-if (N>1000000) break;//needed
+
 
 assert.equal(Math.sign(7) === 1, true)  // 1
 assert.equal(Math.sign(0) === 0, true)  // 0

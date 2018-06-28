@@ -11,7 +11,7 @@
 	PI > 3.0;
 */
 
-if (N>1000000) break;//needed
+
 
 Object.defineProperty(typeof global === "object" ? global : window, "PI", {
     value:        3.141593,

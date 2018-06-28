@@ -13,7 +13,7 @@
 	console.log("e^{π} = " + exp(pi));
 */
 
-if (N>500000) break;//needed
+
 
 LibMath = {};
 LibMath.sum = function (x, y) { return x + y };

@@ -8,7 +8,7 @@
 	console.log(mathTrunc(-0.1)) // -0
 */
 
-if (N>1000000) break;//needed
+
 
 function mathTrunc (x) {
     return (x < 0 ? Math.ceil(x) : Math.floor(x));

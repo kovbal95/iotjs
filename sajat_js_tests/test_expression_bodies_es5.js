@@ -5,7 +5,7 @@
 	nums  = evens.map(function (v, i) { return v + i; });
 */
 
-if (N>100000) break;//needed
+
 
 evens = [1, 2, 3];
 odds  = evens.map(function (v) { return v + 1; });

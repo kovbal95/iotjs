@@ -15,7 +15,7 @@
 	}
 */
 
-if (N>100000) break;//needed
+
 
 class Shape {
 	constructor (id, x, y) {

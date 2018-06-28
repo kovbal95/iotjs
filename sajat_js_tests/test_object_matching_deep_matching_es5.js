@@ -6,7 +6,7 @@
 	var c = tmp.rhs;
 */
 
-if (N>1000000) break;//needed
+
 
 var obj = {
 	op: 1,

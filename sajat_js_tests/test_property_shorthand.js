@@ -4,7 +4,7 @@
 	obj = { x, y }
 */
 
-if (N>500000) break;//needed
+
 
 var x = 0, y = 0
 obj = { x, y }

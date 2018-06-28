@@ -10,7 +10,7 @@
 	console.log("e^{π} = " + exp(pi))
 */
 
-if (N>500000) break;//needed
+
 
 import exp, { pi, e } from "./lib/mathplusplus"
 assert.equal(exp(pi) === 23.140700648952773, true);

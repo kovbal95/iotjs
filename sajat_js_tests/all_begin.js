@@ -18,6 +18,6 @@ Assert.prototype.throws = function(a){
 }
 var assert = new Assert();
 if (console === undefined) var console = require('console');
-var N=1;
+var N=ϗϗϗ;
 var start = Date.now();
-while (true) {
+while (N>0) {

@@ -38,7 +38,7 @@
 	    console.log(n);
 */
 
-if (N>80000) break;//needed
+
 
 var fibonacci = {
 		*[Symbol.iterator]() {

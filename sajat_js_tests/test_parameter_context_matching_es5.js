@@ -20,7 +20,7 @@
 	h({ name: "bar", val: 42 });
 */
 
-if (N>100000) break;//needed
+
 
 function f (arg) {
     var name = arg[0];

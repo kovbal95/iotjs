@@ -11,7 +11,7 @@
 	console.log(list.sort(l10nSV.compare)) // [ "a", "z", "ä" ]
 */
 
-if (N>1) break;//needed
+
 
 var list = [ "ä", "a", "z" ]
 var l10nDE = new Intl.Collator("de")

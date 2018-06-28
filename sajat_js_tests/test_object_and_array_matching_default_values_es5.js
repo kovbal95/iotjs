@@ -8,7 +8,7 @@
 	var y = list[1] === undefined ? 2 : list[1];
 */
 
-if (N>1000000) break;//needed
+
 
 var obj = { a: 1 };
 var list = [ 1 ];

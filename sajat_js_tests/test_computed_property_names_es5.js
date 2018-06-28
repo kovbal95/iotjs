@@ -6,7 +6,7 @@
 	obj[ "baz" + quux() ] = 42;
 */
 
-if (N>2000000) break;//needed
+
 
 var a = "bar";
 var obj = {};
